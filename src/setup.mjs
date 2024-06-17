@@ -78,9 +78,9 @@ export function setup(ctx)
                 realmToCheck = action.realm;
             if (this.game.checkRequirements(drop.requirements) && this.isCorrectGamemodeForRareDrop(drop) && this.isCorrectRealmForRareDrop(drop, realmToCheck) && ((drop.item.localID.includes('Birthday_Present') && this.game.settings.toggleBirthdayEvent) || !drop.item.localID.includes('Birthday_Present')) && rollForOffItem(this.getRareDropChance(level, chance_copy))) {
                 if (drop.altItem !== undefined && this.game.modifiers.allowSignetDrops) {
-                    rewards.addItem(drop.altItem, drop.quantity);
+                    rewards.addItem(drop.altItem, quantity_copy);
                 } else {
-                    rewards.addItem(drop.item, drop.quantity);
+                    rewards.addItem(drop.item, quantity_copy);
                 }
             }
         })
@@ -105,7 +105,6 @@ export function setup(ctx)
 	// 	let chanceForPet = 0;
 		
 	// 	if (pet.id.includes("genericmon"))
-    //         //chanceForPet = (((actionInterval / 1000) * virtualLevel) / 2500000);
     //         chanceForPet = 2
         
     //         if (rollPercentage(chanceForPet)) {
