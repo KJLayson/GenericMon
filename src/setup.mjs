@@ -1,41 +1,30 @@
 export function setup(ctx)
 {
+	//Decimal form of the percent increase for each special pet unlocked in each category
 	const relic_chance_perc = 0.025
 	const relic_quant_perc = 0.025
 	const rare_chance_perc = 0.01
-	let mod_relic_chance = 1.0
-	let mod_relic_quantity = 1.0
-	let mod_rare_chance = 1.0
 
-	// This is required to be intialized at the very beginning for compatibility sake with Pokeworld.
+	// This is required to be intialized at the very beginning for compatibility with other mods that patch PetManger.unlockPet()
 	let special_pets = {
-		relic_chance: 	 	{pets: ["genericmon:crow", "genericmon:bear"], num_unlocked: 0},
-		relic_quantity:		{pets: ["genericmon:giraffe", "genericmon:hippo"], num_unlocked: 0},
-		rare_chance: 	 	{pets: ["genericmon:shark", "genericmon:turtle"], num_unlocked: 0}
+		relic_chance: 	{pets: ["genericmon:crow", "genericmon:bear"], num_unlocked: 0, modifier: 1.0, perc_inc: relic_chance_perc},
+		relic_quantity:	{pets: ["genericmon:giraffe", "genericmon:hippo"], num_unlocked: 0, modifier: 1.0, perc_inc: relic_quant_perc},
+		rare_chance: 	{pets: ["genericmon:shark", "genericmon:turtle"], num_unlocked: 0, modifier: 1.0, perc_inc: rare_chance_perc}
 	}
 
-	function reset(){
-		special_pets = {
-			relic_chance: 	 	{pets: ["genericmon:crow", "genericmon:bear"], num_unlocked: 0},
-			relic_quantity:		{pets: ["genericmon:giraffe", "genericmon:hippo"], num_unlocked: 0},
-			rare_chance: 	 	{pets: ["genericmon:shark", "genericmon:turtle"], num_unlocked: 0}
-		}
-	}
-
+	// Check for unlocked special pets and update custom modifiers accordingly.
 	function checkPets(){
-		reset()
 		for (const key of Object.keys(special_pets)){
+			special_pets[key].num_unlocked = 0
+
 			special_pets[key].pets.forEach((id)=>{
 				let pet = game.pets.getObjectByID(id)
-				if (game.petManager.isPetUnlocked(pet))
-					{
+				if (game.petManager.isPetUnlocked(pet)){
 						special_pets[key].num_unlocked += 1
 					}
 				})
+				special_pets[key].modifier = 1.0 + (special_pets[key].num_unlocked * special_pets[key].perc_inc)
 			}
-			mod_relic_chance = 1.0 + (special_pets.relic_chance.num_unlocked * relic_chance_perc)
-			mod_relic_quantity = 1.0 + (special_pets.relic_quantity.num_unlocked * relic_quant_perc)
-			mod_rare_chance = 1.0 + (special_pets.rare_chance.num_unlocked * rare_chance_perc)
 		}
 
 	// On load tally special pets
@@ -46,11 +35,13 @@ export function setup(ctx)
 	});
 
 
+	// Anytime a new pet is unlocked, perform a quick check to see if it is from this mod
 	ctx.patch(PetManager, "unlockPet").after(function(o, pet) {
 		if (pet === undefined){
 				return;
 			}
 
+		// This causes compatability issues if special_pets is not initialized at the very beginning
 		if 	(special_pets.relic_chance.pets.includes(pet.id) ||
 		 	(special_pets.relic_quantity.pets.includes(pet.id)) ||
 		  	(special_pets.rare_chance.pets.includes(pet.id)))
@@ -59,18 +50,21 @@ export function setup(ctx)
 		}
 	});
 
+	// Replaces rollForRareDrops with custom modifiers for rare drop chances and quantities
 	ctx.patch(Skill, "rollForRareDrops").replace(function(o, level, rewards, action) {
 		this.rareDrops.forEach((drop)=>{
+			// Creating copies that can be modified without overwriting values
 			let chance_copy = JSON.parse(JSON.stringify(drop.chance))
 			let quantity_copy = JSON.parse(JSON.stringify(drop.quantity))
 
+			// Apply modifiers based on type of item
 			if (drop.item.localID.includes('Lesser_Relic')) {
-				chance_copy.chance *= mod_relic_chance
-				quantity_copy = Math.round(quantity_copy.quantity * mod_relic_quantity)
+				chance_copy.chance *= special_pets.relic_chance.modifier * special_pets.rare_chance.modifier
+				quantity_copy = Math.round(quantity_copy * special_pets.relic_quantity.modifier)
 			} else if (chance_copy.type === "Fixed") {
-				chance_copy.chance *= mod_rare_chance
+				chance_copy.chance *= special_pets.rare_chance.modifier
 			} else {
-				chance_copy.scalingFactor *= mod_rare_chance
+				chance_copy.scalingFactor *= special_pets.rare_chance.modifier
 			}
 
             let realmToCheck = game.defaultRealm;
