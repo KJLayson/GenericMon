@@ -176,6 +176,56 @@
 				"skillID": "melvorD:Thieving",
 				"modifiers": {"melvorD:bankSpace": 1}
 			},
+            {
+				"id": "ted",
+				"name": "ted",
+				"media": "assets/pets/ted.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"skillID": "melvorD:Fletching",
+				"modifiers": {"melvorD:bankSpace": 1}
+			},
+            {
+				"id": "tanner",
+				"name": "tanner",
+				"media": "assets/pets/tanner.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"skillID": "melvorD:Crafting",
+				"modifiers": {"melvorD:bankSpace": 1}
+			},
+            {
+				"id": "bundt",
+				"name": "bundt",
+				"media": "assets/pets/bundt.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"skillID": "melvorD:Runecrafting",
+				"modifiers": {"melvorD:bankSpace": 1}
+			},
+            {
+				"id": "murky",
+				"name": "murky",
+				"media": "assets/pets/murky.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"skillID": "melvorD:Herblore",
+				"modifiers": {"melvorD:bankSpace": 1}
+			},
+            {
+				"id": "speedy",
+				"name": "speedy",
+				"media": "assets/pets/speedy.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"skillID": "melvorD:Agility",
+				"modifiers": {"melvorD:bankSpace": 1}
+			},
 			{
 				"id": "petunia",
 				"name": "petunia",
