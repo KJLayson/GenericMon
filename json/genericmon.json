@@ -86,6 +86,16 @@
 				"skillID": "melvorD:Slayer"
 			},
             {
+				"id": "rex",
+				"name": "rex",
+				"media": "assets/pets/rex.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Lesser Relic quantity +2.5%",
+				"skillID": "melvorItA:Corruption"
+			},
+            {
 				"id": "baby_bear",
 				"name": "baby bear",
 				"media": "assets/pets/baby_bear.png",
@@ -162,8 +172,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
-				"modifiers": {
-					"melvorD:ancientRelicLocationChance": 1},
+				"modifiers": {"melvorD:ancientRelicLocationChance": 1},
 				"skillID": "melvorD:Smithing"
 			},
 			{
@@ -173,8 +182,8 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
-				"skillID": "melvorD:Thieving",
-				"modifiers": {"melvorD:bankSpace": 1}
+				"modifiers": {"melvorD:bankSpace": 1},
+                "skillID": "melvorD:Thieving"
 			},
             {
 				"id": "ted",
@@ -183,8 +192,8 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
-				"skillID": "melvorD:Fletching",
-				"modifiers": {"melvorD:bankSpace": 1}
+                "modifiers": {"melvorD:bankSpace": 1},
+				"skillID": "melvorD:Fletching"
 			},
             {
 				"id": "tanner",
@@ -193,8 +202,9 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
-				"skillID": "melvorD:Crafting",
-				"modifiers": {"melvorD:bankSpace": 1}
+                "modifiers": {"melvorD:bankSpace": 1},
+				"skillID": "melvorD:Crafting"
+				
 			},
             {
 				"id": "bundt",
@@ -226,6 +236,16 @@
 				"skillID": "melvorD:Agility",
 				"modifiers": {"melvorD:bankSpace": 1}
 			},
+            {
+				"id": "simon",
+				"name": "simon",
+				"media": "assets/pets/simon.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"skillID": "melvorD:Summoning",
+				"modifiers": {"melvorD:bankSpace": 1}
+			},
 			{
 				"id": "petunia",
 				"name": "petunia",
@@ -235,6 +255,36 @@
 				"activeInRaid": false,
 				"skillID": "melvorD:Astrology",
 				"modifiers" : {"cartographySightRange": 1}
+			},
+            {
+				"id": "archibald",
+				"name": "archibald",
+				"media": "assets/pets/archibald.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"skillID": "melvorAoD:Cartography",
+				"modifiers" : {"cartographySightRange": 1}
+			},
+            {
+				"id": "precious",
+				"name": "precious",
+				"media": "assets/pets/precious.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"skillID": "melvorAoD:Archaeology",
+				"modifiers" : {"cartographySightRange": 1}
+			},
+            {
+				"id": "stellar",
+				"name": "stellar",
+				"media": "assets/pets/stellar.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Lesser Relic quantity +2.5%",
+				"skillID": "melvorItA:Harvesting"
 			},
             {
 				"id": "tater_tot",
@@ -408,7 +458,7 @@
 				"id": "melvorD:Plant",
 				"pet": {
 					"id": "genericmon:tater_tot",
-					"quantity": 100
+					"quantity": 200
 				}
 			}
 		]
