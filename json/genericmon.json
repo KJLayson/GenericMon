@@ -85,6 +85,87 @@
 				"hint": "Lesser Relic quantity +2.5%",
 				"skillID": "melvorD:Slayer"
 			},
+            {
+				"id": "baby_bear",
+				"name": "baby bear",
+				"media": "assets/pets/baby_bear.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Lesser Relic drop chance +2.5%",
+				"skillID": "melvorD:Farming"
+			},
+			{
+				"id": "aviator",
+				"name": "aviator",
+				"media": "assets/pets/aviator.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Lesser Relic drop chance +2.5%",
+				"skillID": "melvorD:Township"
+			},
+            {
+				"id": "timber",
+				"name": "timber",
+				"media": "assets/pets/timber.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Lesser Relic drop chance +2.5%",
+				"skillID": "melvorD:Woodcutting"
+			},
+            {
+				"id": "sandy",
+				"name": "sandy",
+				"media": "assets/pets/sandy.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Lesser Relic drop chance +2.5%",
+				"skillID": "melvorD:Fishing"
+			},
+            {
+				"id": "ember",
+				"name": "ember",
+				"media": "assets/pets/ember.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Lesser Relic drop chance +2.5%",
+				"skillID": "melvorD:Firemaking"
+			},
+            {
+				"id": "wolfgang",
+				"name": "wolfgang",
+				"media": "assets/pets/wolfgang.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"modifiers": {"melvorD:mediumArtefactChance": 1},
+				"skillID": "melvorD:Cooking"
+			},
+            {
+				"id": "rocky",
+				"name": "rocky",
+				"media": "assets/pets/rocky.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"modifiers": {"melvorD:tinyArtefactChance": 1},
+				"skillID": "melvorD:Mining"
+			},
+			{
+				"id": "truffle",
+				"name": "truffle",
+				"media": "assets/pets/truffle.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"modifiers": {
+					"melvorD:ancientRelicLocationChance": 1},
+				"skillID": "melvorD:Smithing"
+			},
 			{
 				"id": "cupcake",
 				"name": "cupcake",
@@ -104,57 +185,6 @@
 				"activeInRaid": false,
 				"skillID": "melvorD:Astrology",
 				"modifiers" : {"cartographySightRange": 1}
-			},
-			{
-				"id": "truffle",
-				"name": "truffle",
-				"media": "assets/pets/truffle.png",
-				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
-				"activeInRaid": false,
-				"modifiers": {
-					"melvorD:ancientRelicLocationChance": 1},
-				"skillID": "melvorD:Smithing"
-			},
-			{
-				"id": "rocky",
-				"name": "rocky",
-				"media": "assets/pets/rocky.png",
-				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
-				"activeInRaid": false,
-				"modifiers": {"melvorD:tinyArtefactChance": 1},
-				"skillID": "melvorD:Mining"
-			},
-			{
-				"id": "wolfgang",
-				"name": "wolfgang",
-				"media": "assets/pets/wolfgang.png",
-				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
-				"activeInRaid": false,
-				"modifiers": {"melvorD:mediumArtefactChance": 1},
-				"skillID": "melvorD:Cooking"
-			},
-			{
-				"id": "baby_bear",
-				"name": "baby bear",
-				"media": "assets/pets/baby_bear.png",
-				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
-				"activeInRaid": false,
-				"hint": "Lesser Relic drop chance +2.5%",
-				"skillID": "melvorD:Farming"
-			},
-			{
-				"id": "aviator",
-				"name": "aviator",
-				"media": "assets/pets/aviator.png",
-				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
-				"activeInRaid": false,
-				"hint": "Lesser Relic drop chance +2.5%",
-				"skillID": "melvorD:Township"
 			},
             {
 				"id": "tater_tot",
