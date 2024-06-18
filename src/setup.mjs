@@ -7,9 +7,9 @@ export function setup(ctx)
 
 	// This is required to be intialized at the very beginning for compatibility with other mods that patch PetManger.unlockPet()
 	let special_pets = {
-		relic_chance: 	{pets: ["genericmon:crow", "genericmon:bear"], num_unlocked: 0, modifier: 1.0, perc_inc: relic_chance_perc},
-		relic_quantity:	{pets: ["genericmon:giraffe", "genericmon:hippo"], num_unlocked: 0, modifier: 1.0, perc_inc: relic_quant_perc},
-		rare_chance: 	{pets: ["genericmon:shark", "genericmon:turtle"], num_unlocked: 0, modifier: 1.0, perc_inc: rare_chance_perc}
+		relic_chance: 	{pets: ["genericmon:aviator", "genericmon:baby_bear"], num_unlocked: 0, modifier: 1.0, perc_inc: relic_chance_perc},
+		relic_quantity:	{pets: ["genericmon:milton", "genericmon:bubbles"], num_unlocked: 0, modifier: 1.0, perc_inc: relic_quant_perc},
+		rare_chance: 	{pets: ["genericmon:finvestigator", "genericmon:turtleneck"], num_unlocked: 0, modifier: 1.0, perc_inc: rare_chance_perc}
 	}
 
 	// Check for unlocked special pets and update custom modifiers accordingly.
@@ -29,18 +29,14 @@ export function setup(ctx)
 
 	// On load tally special pets
 	ctx.onCharacterLoaded(async (ctx) => {
-		checkPets()
-		// unlockAll()
 		
+		checkPets()
+		//unlockAll()
 	});
 
 
 	// Anytime a new pet is unlocked, perform a quick check to see if it is from this mod
 	ctx.patch(PetManager, "unlockPet").after(function(o, pet) {
-		if (pet === undefined){
-				return;
-			}
-
 		// This causes compatability issues if special_pets is not initialized at the very beginning
 		if 	(special_pets.relic_chance.pets.includes(pet.id) ||
 		 	(special_pets.relic_quantity.pets.includes(pet.id)) ||

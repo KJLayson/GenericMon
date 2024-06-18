@@ -2,7 +2,5 @@
   "namespace": "genericmon",
   "icon": "assets/logo.png",
   "setup": "src/setup.mjs",
-  "load": [
-	"json/genericmon.json"
-  ]
+  "load": ["json/genericmon.json"]
 }
