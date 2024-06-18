@@ -35,6 +35,56 @@
 				"modifiers": {"melvorD:barrierSummonDamage": 2.5},
 				"skillID": "melvorD:Defence"
 			},
+            {
+				"id": "valiant",
+				"name": "valiant",
+				"media": "assets/pets/valiant.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"modifiers": {"melvorD:barrierSummonDamage": 2.5},
+				"skillID": "melvorD:Hitpoints"
+			},
+            {
+				"id": "turtleneck",
+				"name": "turtleneck",
+				"media": "assets/pets/turtleneck.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Rare item drop chance +1%",
+				"skillID": "melvorD:Ranged"
+			},
+            {
+				"id": "finvestigator",
+				"name": "finvestigator",
+				"media": "assets/pets/finvestigator.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Rare item drop chance +1%",
+				"skillID": "melvorD:Magic"
+			},
+            {
+				"id": "bubbles",
+				"name": "bubbles",
+				"media": "assets/pets/bubbles.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Lesser Relic quantity +2.5%",
+				"skillID": "melvorD:Prayer"
+			},
+            {
+				"id": "milton",
+				"name": "milton",
+				"media": "assets/pets/milton.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"hint": "Lesser Relic quantity +2.5%",
+				"skillID": "melvorD:Slayer"
+			},
 			{
 				"id": "cupcake",
 				"name": "cupcake",
@@ -85,46 +135,6 @@
 				"activeInRaid": false,
 				"modifiers": {"melvorD:mediumArtefactChance": 1},
 				"skillID": "melvorD:Cooking"
-			},
-			{
-				"id": "turtleneck",
-				"name": "turtleneck",
-				"media": "assets/pets/turtleneck.png",
-				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
-				"activeInRaid": false,
-				"hint": "Rare item drop chance +1%",
-				"skillID": "melvorD:Ranged"
-			},
-			{
-				"id": "finvestigator",
-				"name": "finvestigator",
-				"media": "assets/pets/finvestigator.png",
-				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
-				"activeInRaid": false,
-				"hint": "Rare item drop chance +1%",
-				"skillID": "melvorD:Magic"
-			},
-			{
-				"id": "bubbles",
-				"name": "bubbles",
-				"media": "assets/pets/bubbles.png",
-				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
-				"activeInRaid": false,
-				"hint": "Lesser Relic quantity +2.5%",
-				"skillID": "melvorD:Prayer"
-			},
-			{
-				"id": "milton",
-				"name": "milton",
-				"media": "assets/pets/milton.png",
-				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
-				"activeInRaid": false,
-				"hint": "Lesser Relic quantity +2.5%",
-				"skillID": "melvorD:Slayer"
 			},
 			{
 				"id": "baby_bear",
