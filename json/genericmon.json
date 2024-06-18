@@ -6,9 +6,9 @@
 		"pets": 
 		[
 			{
-				"id": "dinosaur",
-				"name": "Dinosaur",
-				"media": "assets/pets/Genericsaur.png",
+				"id": "genericsaur",
+				"name": "genericsaur",
+				"media": "assets/pets/genericsaur.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -16,9 +16,9 @@
 				"skillID": "melvorD:Attack"
 			},
 			{
-				"id": "cat",
-				"name": "Coin Cat",
-				"media": "assets/pets/Cat.png",
+				"id": "coin_cat",
+				"name": "coin cat",
+				"media": "assets/pets/coin_cat.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -26,9 +26,9 @@
 				"skillID": "melvorD:Strength"
 			},
 			{
-				"id": "monkey",
-				"name": "Monkey",
-				"media": "assets/pets/Monkey.png",
+				"id": "mango",
+				"name": "mango",
+				"media": "assets/pets/mango.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -36,9 +36,9 @@
 				"skillID": "melvorD:Defence"
 			},
 			{
-				"id": "potato",
-				"name": "Potato",
-				"media": "assets/pets/Potato.png",
+				"id": "tater_tot",
+				"name": "tater tot",
+				"media": "assets/pets/tater_tot.png",
 				"scaleChanceWithMasteryPool": false,
 				"hint": "They pert near killed the Irish",
 				"ignoreCompletion": true,
@@ -46,9 +46,9 @@
 				"modifiers": {"melvorD:autoEatEfficiency": 2.5}
 			},
 			{
-				"id": "chicken",
-				"name": "Chicken",
-				"media": "assets/pets/Chicken.png",
+				"id": "cupcake",
+				"name": "cupcake",
+				"media": "assets/pets/cupcake.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -56,9 +56,9 @@
 				"modifiers": {"melvorD:bankSpace": 1}
 			},
 			{
-				"id": "cow",
-				"name": "Cow",
-				"media": "assets/pets/Cow.png",
+				"id": "petunia",
+				"name": "petunia",
+				"media": "assets/pets/petunia.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -66,9 +66,9 @@
 				"modifiers" : {"cartographySightRange": 1}
 			},
 			{
-				"id": "dog",
-				"name": "Dog",
-				"media": "assets/pets/Dog.png",
+				"id": "truffle",
+				"name": "truffle",
+				"media": "assets/pets/truffle.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -78,8 +78,8 @@
 			},
 			{
 				"id": "rocky",
-				"name": "Rocky",
-				"media": "assets/pets/Rocky.png",
+				"name": "rocky",
+				"media": "assets/pets/rocky.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -87,9 +87,9 @@
 				"skillID": "melvorD:Mining"
 			},
 			{
-				"id": "wolf",
-				"name": "Wolf",
-				"media": "assets/pets/Wolf.png",
+				"id": "wolfgang",
+				"name": "wolfgang",
+				"media": "assets/pets/wolfgang.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -97,9 +97,9 @@
 				"skillID": "melvorD:Cooking"
 			},
 			{
-				"id": "turtle",
-				"name": "Turtle",
-				"media": "assets/pets/Turtle.png",
+				"id": "turtleneck",
+				"name": "turtleneck",
+				"media": "assets/pets/turtleneck.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -107,9 +107,9 @@
 				"skillID": "melvorD:Ranged"
 			},
 			{
-				"id": "shark",
-				"name": "Shark",
-				"media": "assets/pets/Shark.png",
+				"id": "finvestigator",
+				"name": "finvestigator",
+				"media": "assets/pets/finvestigator.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -117,9 +117,9 @@
 				"skillID": "melvorD:Magic"
 			},
 			{
-				"id": "hippo",
-				"name": "Hippo",
-				"media": "assets/pets/Hippo.png",
+				"id": "bubbles",
+				"name": "bubbles",
+				"media": "assets/pets/bubbles.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -127,9 +127,9 @@
 				"skillID": "melvorD:Prayer"
 			},
 			{
-				"id": "giraffe",
-				"name": "Giraffe",
-				"media": "assets/pets/Giraffe.png",
+				"id": "milton",
+				"name": "milton",
+				"media": "assets/pets/milton.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -137,9 +137,9 @@
 				"skillID": "melvorD:Slayer"
 			},
 			{
-				"id": "bear",
-				"name": "Baby Bear",
-				"media": "assets/pets/Baby_Bear.png",
+				"id": "baby_bear",
+				"name": "baby bear",
+				"media": "assets/pets/baby_bear.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -147,9 +147,9 @@
 				"skillID": "melvorD:Farming"
 			},
 			{
-				"id": "crow",
-				"name": "Crow",
-				"media": "assets/pets/Crow.png",
+				"id": "aviator",
+				"name": "aviator",
+				"media": "assets/pets/aviator.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": true,
 				"activeInRaid": false,
@@ -165,7 +165,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:dinosaur"
+						"genericmon:genericsaur"
 					]
 				}
 			},
@@ -175,7 +175,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:cat"
+						"genericmon:coin_cat"
 					]
 				}
 			},
@@ -185,7 +185,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:monkey"
+						"genericmon:mango"
 					]
 				}
 			},
@@ -195,7 +195,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:monkey"
+						"genericmon:mango"
 					]
 				}
 			},
@@ -205,7 +205,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:turtle"
+						"genericmon:turtleneck"
 					]
 				}
 			},
@@ -215,7 +215,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:shark"
+						"genericmon:finvestigator"
 					]
 				}
 			},
@@ -225,7 +225,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:hippo"
+						"genericmon:bubbles"
 					]
 				}
 			},
@@ -235,7 +235,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:giraffe"
+						"genericmon:milton"
 					]
 				}
 			},
@@ -245,7 +245,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:bear"
+						"genericmon:baby_bear"
 					]
 				}
 			},
@@ -255,7 +255,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:crow"
+						"genericmon:aviator"
 					]
 				}
 			},
@@ -275,7 +275,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:chicken"
+						"genericmon:cupcake"
 					]
 				}
 			},
@@ -285,7 +285,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:dog"
+						"genericmon:truffle"
 					]
 				}
 			},
@@ -295,7 +295,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:wolf"
+						"genericmon:wolfgang"
 					]
 				}
 			},
@@ -305,7 +305,7 @@
 				{
 					"pets": 
 					[
-						"genericmon:cow"
+						"genericmon:petunia"
 					]
 				}
 			}
@@ -317,8 +317,8 @@
 			{
 				"id": "melvorD:Plant",
 				"pet": {
-					"id": "genericmon:potato",
-					"quantity": 5
+					"id": "genericmon:tater_tot",
+					"quantity": 100
 				}
 			}
 		]
