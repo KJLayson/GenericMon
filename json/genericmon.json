@@ -10,7 +10,7 @@
 				"name": "genericsaur",
 				"media": "assets/pets/genericsaur.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {"flatBarrierDamage": 1.5},
 				"skillID": "melvorD:Attack"
@@ -20,7 +20,7 @@
 				"name": "coin cat",
 				"media": "assets/pets/coin_cat.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {"melvorD:flatBarrierSummonDamage": 1.5},
 				"skillID": "melvorD:Strength"
@@ -30,7 +30,7 @@
 				"name": "mango",
 				"media": "assets/pets/mango.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {"melvorD:barrierSummonDamage": 2.5},
 				"skillID": "melvorD:Defence"
@@ -40,7 +40,7 @@
 				"name": "valiant",
 				"media": "assets/pets/valiant.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {"melvorD:barrierSummonDamage": 2.5},
 				"skillID": "melvorD:Hitpoints"
@@ -50,7 +50,7 @@
 				"name": "turtleneck",
 				"media": "assets/pets/turtleneck.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Rare item drop chance +1%",
 				"skillID": "melvorD:Ranged"
@@ -60,7 +60,7 @@
 				"name": "finvestigator",
 				"media": "assets/pets/finvestigator.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Rare item drop chance +1%",
 				"skillID": "melvorD:Magic"
@@ -70,7 +70,7 @@
 				"name": "bubbles",
 				"media": "assets/pets/bubbles.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Lesser Relic quantity +2.5%",
 				"skillID": "melvorD:Prayer"
@@ -80,7 +80,7 @@
 				"name": "milton",
 				"media": "assets/pets/milton.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Lesser Relic quantity +2.5%",
 				"skillID": "melvorD:Slayer"
@@ -90,7 +90,7 @@
 				"name": "rex",
 				"media": "assets/pets/rex.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Lesser Relic quantity +2.5%",
 				"skillID": "melvorItA:Corruption"
@@ -100,7 +100,7 @@
 				"name": "baby bear",
 				"media": "assets/pets/baby_bear.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Lesser Relic drop chance +2.5%",
 				"skillID": "melvorD:Farming"
@@ -110,7 +110,7 @@
 				"name": "aviator",
 				"media": "assets/pets/aviator.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Lesser Relic drop chance +2.5%",
 				"skillID": "melvorD:Township"
@@ -120,7 +120,7 @@
 				"name": "timber",
 				"media": "assets/pets/timber.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Lesser Relic drop chance +2.5%",
 				"skillID": "melvorD:Woodcutting"
@@ -130,7 +130,7 @@
 				"name": "sandy",
 				"media": "assets/pets/sandy.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Lesser Relic drop chance +2.5%",
 				"skillID": "melvorD:Fishing"
@@ -140,7 +140,7 @@
 				"name": "ember",
 				"media": "assets/pets/ember.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Lesser Relic drop chance +2.5%",
 				"skillID": "melvorD:Firemaking"
@@ -150,7 +150,7 @@
 				"name": "wolfgang",
 				"media": "assets/pets/wolfgang.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {"melvorD:mediumArtefactChance": 1},
 				"skillID": "melvorD:Cooking"
@@ -160,7 +160,7 @@
 				"name": "rocky",
 				"media": "assets/pets/rocky.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {"melvorD:tinyArtefactChance": 1},
 				"skillID": "melvorD:Mining"
@@ -170,7 +170,7 @@
 				"name": "truffle",
 				"media": "assets/pets/truffle.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {"melvorD:ancientRelicLocationChance": 1},
 				"skillID": "melvorD:Smithing"
@@ -180,7 +180,7 @@
 				"name": "cupcake",
 				"media": "assets/pets/cupcake.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {"melvorD:bankSpace": 1},
                 "skillID": "melvorD:Thieving"
@@ -190,7 +190,7 @@
 				"name": "ted",
 				"media": "assets/pets/ted.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
                 "modifiers": {"melvorD:bankSpace": 1},
 				"skillID": "melvorD:Fletching"
@@ -200,7 +200,7 @@
 				"name": "tanner",
 				"media": "assets/pets/tanner.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
                 "modifiers": {"melvorD:bankSpace": 1},
 				"skillID": "melvorD:Crafting"
@@ -211,7 +211,7 @@
 				"name": "bundt",
 				"media": "assets/pets/bundt.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Runecrafting",
 				"modifiers": {"melvorD:bankSpace": 1}
@@ -221,7 +221,7 @@
 				"name": "murky",
 				"media": "assets/pets/murky.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Herblore",
 				"modifiers": {"melvorD:bankSpace": 1}
@@ -231,7 +231,7 @@
 				"name": "speedy",
 				"media": "assets/pets/speedy.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Agility",
 				"modifiers": {"melvorD:bankSpace": 1}
@@ -241,7 +241,7 @@
 				"name": "simon",
 				"media": "assets/pets/simon.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Summoning",
 				"modifiers": {"melvorD:bankSpace": 1}
@@ -251,7 +251,7 @@
 				"name": "petunia",
 				"media": "assets/pets/petunia.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Astrology",
 				"modifiers" : {"cartographySightRange": 1}
@@ -261,7 +261,7 @@
 				"name": "archibald",
 				"media": "assets/pets/archibald.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorAoD:Cartography",
 				"modifiers" : {"cartographySightRange": 1}
@@ -271,7 +271,7 @@
 				"name": "precious",
 				"media": "assets/pets/precious.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorAoD:Archaeology",
 				"modifiers" : {"cartographySightRange": 1}
@@ -281,7 +281,7 @@
 				"name": "stellar",
 				"media": "assets/pets/stellar.png",
 				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Lesser Relic quantity +2.5%",
 				"skillID": "melvorItA:Harvesting"
@@ -292,7 +292,7 @@
 				"media": "assets/pets/tater_tot.png",
 				"scaleChanceWithMasteryPool": false,
 				"hint": "They pert near killed the Irish",
-				"ignoreCompletion": true,
+				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {"melvorD:autoEatEfficiency": 2.5}
 			}
@@ -379,6 +379,16 @@
 					]
 				}
 			},
+            {
+				"skillID": "melvorItA:Corruption",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:rex"
+					]
+				}
+			},
 			{
 				"skillID": "melvorD:Farming",
 				"data": 
@@ -399,6 +409,46 @@
 					]
 				}
 			},
+            {
+				"skillID": "melvorD:Woodcutting",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:timber"
+					]
+				}
+			},
+            {
+				"skillID": "melvorD:Fishing",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:sandy"
+					]
+				}
+			},
+            {
+				"skillID": "melvorD:Firemaking",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:ember"
+					]
+				}
+			},
+            {
+				"skillID": "melvorD:Cooking",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:wolfgang"
+					]
+				}
+			},
 			{
 				"skillID": "melvorD:Mining",
 				"data": 
@@ -409,17 +459,7 @@
 					]
 				}
 			},
-			{
-				"skillID": "melvorD:Thieving",
-				"data": 
-				{
-					"pets": 
-					[
-						"genericmon:cupcake"
-					]
-				}
-			},
-			{
+            {
 				"skillID": "melvorD:Smithing",
 				"data": 
 				{
@@ -430,12 +470,12 @@
 				}
 			},
 			{
-				"skillID": "melvorD:Cooking",
+				"skillID": "melvorD:Thieving",
 				"data": 
 				{
 					"pets": 
 					[
-						"genericmon:wolfgang"
+						"genericmon:cupcake"
 					]
 				}
 			},
