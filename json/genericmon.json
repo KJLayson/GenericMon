@@ -36,16 +36,6 @@
 				"skillID": "melvorD:Defence"
 			},
 			{
-				"id": "tater_tot",
-				"name": "tater tot",
-				"media": "assets/pets/tater_tot.png",
-				"scaleChanceWithMasteryPool": false,
-				"hint": "They pert near killed the Irish",
-				"ignoreCompletion": true,
-				"activeInRaid": false,
-				"modifiers": {"melvorD:autoEatEfficiency": 2.5}
-			},
-			{
 				"id": "cupcake",
 				"name": "cupcake",
 				"media": "assets/pets/cupcake.png",
@@ -155,6 +145,16 @@
 				"activeInRaid": false,
 				"hint": "Lesser Relic drop chance +2.5%",
 				"skillID": "melvorD:Township"
+			},
+            {
+				"id": "tater_tot",
+				"name": "tater tot",
+				"media": "assets/pets/tater_tot.png",
+				"scaleChanceWithMasteryPool": false,
+				"hint": "They pert near killed the Irish",
+				"ignoreCompletion": true,
+				"activeInRaid": false,
+				"modifiers": {"melvorD:autoEatEfficiency": 2.5}
 			}
 		],
 		"skillData": 
