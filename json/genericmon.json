@@ -88,7 +88,10 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers" : {"melvorD:accuracyRating": 3},
+				"modifiers" : {
+					"melvorD:accuracyRating": 2.5,
+					"melvorD:attackInterval": -1.25
+				},
 				"skillID": "melvorItA:Corruption"
 			},
             {
@@ -277,7 +280,10 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorAoD:mapChargePreservationChance": 3},
+				"modifiers": {
+					"melvorD:bypassAmmoPreservationChance": 2.5,
+					"melvorD:bypassRunePreservationChance": 2.5
+				},
 				"skillID": "melvorItA:Harvesting"
 			},
             {
