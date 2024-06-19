@@ -479,6 +479,56 @@
 					]
 				}
 			},
+            {
+				"skillID": "melvorD:Fletching",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:ted"
+					]
+				}
+			},
+            {
+				"skillID": "melvorD:Crafting",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:tanner"
+					]
+				}
+			},
+            {
+				"skillID": "melvorD:Runecrafting",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:bundt"
+					]
+				}
+			},
+            {
+				"skillID": "melvorD:Herblore",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:murky"
+					]
+				}
+			},
+            {
+				"skillID": "melvorD:Agility",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:speedy"
+					]
+				}
+			},
 			{
 				"skillID": "melvorD:Astrology",
 				"data": 
