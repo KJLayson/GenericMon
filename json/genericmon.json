@@ -1,10 +1,8 @@
 {
 	"$schema": "https://melvoridle.com/assets/schema/gameData.json",
 	"namespace": "genericmon",
-	"data": 
-	{
-		"pets": 
-		[
+	"data": {
+		"pets": [
 			{
 				"id": "genericsaur",
 				"name": "genericsaur",
@@ -12,7 +10,9 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:flatBarrierDamage": 1.5},
+				"modifiers": {
+					"melvorD:flatBarrierDamage": 1.5
+				},
 				"skillID": "melvorD:Attack"
 			},
 			{
@@ -22,7 +22,9 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:flatBarrierSummonDamage": 1.5},
+				"modifiers": {
+					"melvorD:flatBarrierSummonDamage": 1.5
+				},
 				"skillID": "melvorD:Strength"
 			},
 			{
@@ -32,80 +34,94 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:barrierSummonDamage": 2.5},
+				"modifiers": {
+					"melvorD:barrierSummonDamage": 2.5
+				},
 				"skillID": "melvorD:Defence"
 			},
-            {
+			{
 				"id": "valiant",
 				"name": "valiant",
 				"media": "assets/pets/valiant.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:ancientRelicLocationChance": 1.5},
+				"modifiers": {
+					"melvorD:ancientRelicLocationChance": 1.5
+				},
 				"skillID": "melvorD:Hitpoints"
 			},
-            {
+			{
 				"id": "turtleneck",
 				"name": "turtleneck",
 				"media": "assets/pets/turtleneck.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"genericmon:rareDropChance": 1},
+				"modifiers": {
+					"genericmon:rareDropChance": 1
+				},
 				"skillID": "melvorD:Ranged"
 			},
-            {
+			{
 				"id": "finvestigator",
 				"name": "finvestigator",
 				"media": "assets/pets/finvestigator.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"genericmon:rareDropChance": 1},
+				"modifiers": {
+					"genericmon:rareDropChance": 1
+				},
 				"skillID": "melvorD:Magic"
 			},
-            {
+			{
 				"id": "bubbles",
 				"name": "bubbles",
 				"media": "assets/pets/bubbles.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"genericmon:lesserRelicQuantity": 2.5},
+				"modifiers": {
+					"genericmon:lesserRelicQuantity": 2.5
+				},
 				"skillID": "melvorD:Prayer"
 			},
-            {
+			{
 				"id": "milton",
 				"name": "milton",
 				"media": "assets/pets/milton.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"genericmon:lesserRelicQuantity": 2.5},
+				"modifiers": {
+					"genericmon:lesserRelicQuantity": 2.5
+				},
 				"skillID": "melvorD:Slayer"
 			},
-            {
+			{
 				"id": "rex",
 				"name": "rex",
 				"media": "assets/pets/rex.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers" : {
+				"modifiers": {
 					"melvorD:accuracyRating": 2.5,
 					"melvorD:attackInterval": -1.25
 				},
 				"skillID": "melvorItA:Corruption"
 			},
-            {
+			{
 				"id": "baby_bear",
 				"name": "baby bear",
 				"media": "assets/pets/baby_bear.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"genericmon:lesserRelicChance": 2.5},
+				"modifiers": {
+					"genericmon:lesserRelicChance": 2.5
+				},
 				"skillID": "melvorD:Farming"
 			},
 			{
@@ -115,57 +131,69 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"genericmon:lesserRelicChance": 2.5},
+				"modifiers": {
+					"genericmon:lesserRelicChance": 2.5
+				},
 				"skillID": "melvorD:Township"
 			},
-            {
+			{
 				"id": "timber",
 				"name": "timber",
 				"media": "assets/pets/timber.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers" : {"melvorD:ancientRelicLocationChance": 1.5},
+				"modifiers": {
+					"melvorD:ancientRelicLocationChance": 1.5
+				},
 				"skillID": "melvorD:Woodcutting"
 			},
-            {
+			{
 				"id": "sandy",
 				"name": "sandy",
 				"media": "assets/pets/sandy.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers" : {"melvorD:cartographySurveyInterval": 2.5},
+				"modifiers": {
+					"melvorD:cartographySurveyInterval": 2.5
+				},
 				"skillID": "melvorD:Fishing"
 			},
-            {
+			{
 				"id": "ember",
 				"name": "ember",
 				"media": "assets/pets/ember.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers" : {"melvorD:tinyArtefactChance": 2.5},
+				"modifiers": {
+					"melvorD:tinyArtefactChance": 2.5
+				},
 				"skillID": "melvorD:Firemaking"
 			},
-            {
+			{
 				"id": "wolfgang",
 				"name": "wolfgang",
 				"media": "assets/pets/wolfgang.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:smallArtefactChance": 2.5},
+				"modifiers": {
+					"melvorD:smallArtefactChance": 2.5
+				},
 				"skillID": "melvorD:Cooking"
 			},
-            {
+			{
 				"id": "rocky",
 				"name": "rocky",
 				"media": "assets/pets/rocky.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:mediumArtefactChance": 2.5},
+				"modifiers": {
+					"melvorD:mediumArtefactChance": 2.5
+				},
 				"skillID": "melvorD:Mining"
 			},
 			{
@@ -175,7 +203,9 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers" : {"melvorD:largeArtefactChance": 2},
+				"modifiers": {
+					"melvorD:largeArtefactChance": 2
+				},
 				"skillID": "melvorD:Smithing"
 			},
 			{
@@ -185,31 +215,36 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers" : {"melvorD:attackInterval": -1.25},
-                "skillID": "melvorD:Thieving"
+				"modifiers": {
+					"melvorD:attackInterval": -1.25
+				},
+				"skillID": "melvorD:Thieving"
 			},
-            {
+			{
 				"id": "ted",
 				"name": "ted",
 				"media": "assets/pets/ted.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-                "modifiers": {"melvorD:bankSpace": 2},
+				"modifiers": {
+					"melvorD:bankSpace": 2
+				},
 				"skillID": "melvorD:Fletching"
 			},
-            {
+			{
 				"id": "tanner",
 				"name": "tanner",
 				"media": "assets/pets/tanner.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-                "modifiers": {"melvorD:summoningAttackInterval": -1.25},
+				"modifiers": {
+					"melvorD:summoningAttackInterval": -1.25
+				},
 				"skillID": "melvorD:Crafting"
-				
 			},
-            {
+			{
 				"id": "bundt",
 				"name": "bundt",
 				"media": "assets/pets/bundt.png",
@@ -217,9 +252,11 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Runecrafting",
-				"modifiers": {"melvorD:summoningChargePreservationChanceBypass": 2.5}
+				"modifiers": {
+					"melvorD:summoningChargePreservationChanceBypass": 2.5
+				}
 			},
-            {
+			{
 				"id": "murky",
 				"name": "murky",
 				"media": "assets/pets/murky.png",
@@ -227,9 +264,11 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Herblore",
-				"modifiers": {"melvorD:summoningMaxHit": 2.5}
+				"modifiers": {
+					"melvorD:summoningMaxHit": 2.5
+				}
 			},
-            {
+			{
 				"id": "speedy",
 				"name": "speedy",
 				"media": "assets/pets/speedy.png",
@@ -237,9 +276,11 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Agility",
-				"modifiers": {"melvorD:minHitBasedOnMaxHit": 2}
+				"modifiers": {
+					"melvorD:minHitBasedOnMaxHit": 2
+				}
 			},
-            {
+			{
 				"id": "simon",
 				"name": "simon",
 				"media": "assets/pets/simon.png",
@@ -247,7 +288,9 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Summoning",
-				"modifiers": {"melvorD:skillInterval": -1.25}
+				"modifiers": {
+					"melvorD:skillInterval": -1.25
+				}
 			},
 			{
 				"id": "petunia",
@@ -257,9 +300,11 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Astrology",
-				"modifiers" : {"melvorD:bypassAmmoPreservationChance": 2.5}
+				"modifiers": {
+					"melvorD:bypassAmmoPreservationChance": 2.5
+				}
 			},
-            {
+			{
 				"id": "archibald",
 				"name": "archibald",
 				"media": "assets/pets/archibald.png",
@@ -267,9 +312,11 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorAoD:Cartography",
-				"modifiers" : {"melvorD:bypassRunePreservationChance": 2.5}
+				"modifiers": {
+					"melvorD:bypassRunePreservationChance": 2.5
+				}
 			},
-            {
+			{
 				"id": "precious",
 				"name": "precious",
 				"media": "assets/pets/precious.png",
@@ -277,9 +324,11 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorAoD:Cartography",
-				"modifiers" : {"melvorD:autoEatThreshold": 2}
+				"modifiers": {
+					"melvorD:autoEatThreshold": 2
+				}
 			},
-            {
+			{
 				"id": "stellar",
 				"name": "stellar",
 				"media": "assets/pets/stellar.png",
@@ -292,7 +341,7 @@
 				},
 				"skillID": "melvorItA:Harvesting"
 			},
-            {
+			{
 				"id": "tater_tot",
 				"name": "tater tot",
 				"media": "assets/pets/tater_tot.png",
@@ -300,267 +349,216 @@
 				"hint": "Farmlands",
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:foodHealingValue": 5}
+				"modifiers": {
+					"melvorD:foodHealingValue": 5
+				}
 			}
 		],
-		"skillData": 
-		[
+		"skillData": [
 			{
 				"skillID": "melvorD:Attack",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:genericsaur"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Strength",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:coin_cat"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Defence",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:mango"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Hitpoints",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:mango"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Ranged",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:turtleneck"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Magic",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:finvestigator"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Prayer",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:bubbles"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Slayer",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:milton"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorItA:Corruption",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:rex"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Farming",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:baby_bear"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Township",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:aviator"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorD:Woodcutting",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:timber"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorD:Fishing",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:sandy"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorD:Firemaking",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:ember"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorD:Cooking",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:wolfgang"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Mining",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:rocky"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorD:Smithing",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:truffle"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Thieving",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:cupcake"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorD:Fletching",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:ted"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorD:Crafting",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:tanner"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorD:Runecrafting",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:bundt"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorD:Herblore",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:murky"
 					]
 				}
 			},
-            {
+			{
 				"skillID": "melvorD:Agility",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:speedy"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Summoning",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:simon"
 					]
 				}
 			},
 			{
 				"skillID": "melvorD:Astrology",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:petunia"
 					]
 				}
 			},
 			{
 				"skillID": "melvorAoD:Cartography",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:archibald",
 						"genericmon:precious"
 					]
@@ -568,10 +566,8 @@
 			},
 			{
 				"skillID": "melvorItA:Harvesting",
-				"data": 
-				{
-					"pets": 
-					[
+				"data": {
+					"pets": [
 						"genericmon:stellar"
 					]
 				}
@@ -583,29 +579,43 @@
 				"allowedScopes": [
 					{
 						"scopes": {},
-						"descriptions": [{"text": "${value}% Lesser Relic drop chance"}]
-					}]
+						"descriptions": [
+							{
+								"text": "${value}% Lesser Relic drop chance"
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "lesserRelicQuantity",
 				"allowedScopes": [
 					{
 						"scopes": {},
-						"descriptions": [{"text": "${value}% Lesser Relic drop quantity"}]
-					}]
+						"descriptions": [
+							{
+								"text": "${value}% Lesser Relic drop quantity"
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "rareDropChance",
 				"allowedScopes": [
 					{
 						"scopes": {},
-						"descriptions": [{"text": "${value}% Rare item drop chance"}]
-					}]
+						"descriptions": [
+							{
+								"text": "${value}% Rare item drop chance"
+							}
+						]
+					}
+				]
 			}
 		]
 	},
-	"modifications": 
-	{
+	"modifications": {
 		"monsters": [
 			{
 				"id": "melvorD:Plant",
