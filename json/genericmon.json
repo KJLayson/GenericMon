@@ -52,6 +52,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
+				"modifiers": {"genericmon:rareDropChance": 1},
 				"skillID": "melvorD:Ranged"
 			},
             {
@@ -61,6 +62,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
+				"modifiers": {"genericmon:rareDropChance": 1},
 				"skillID": "melvorD:Magic"
 			},
             {
@@ -70,6 +72,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
+				"modifiers": {"genericmon:lesserRelicQuantity": 2.5},
 				"skillID": "melvorD:Prayer"
 			},
             {
@@ -79,6 +82,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
+				"modifiers": {"genericmon:lesserRelicQuantity": 2.5},
 				"skillID": "melvorD:Slayer"
 			},
             {
@@ -101,6 +105,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
+				"modifiers": {"genericmon:lesserRelicChance": 2.5},
 				"skillID": "melvorD:Farming"
 			},
 			{
@@ -110,6 +115,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
+				"modifiers": {"genericmon:lesserRelicChance": 2.5},
 				"skillID": "melvorD:Township"
 			},
             {
@@ -569,6 +575,32 @@
 						"genericmon:stellar"
 					]
 				}
+			}
+		],
+		"modifiers": [
+			{
+				"id": "lesserRelicChance",
+				"allowedScopes": [
+					{
+						"scopes": {},
+						"descriptions": [{"text": "${value}% Lesser Relic drop chance"}]
+					}]
+			},
+			{
+				"id": "lesserRelicQuantity",
+				"allowedScopes": [
+					{
+						"scopes": {},
+						"descriptions": [{"text": "${value}% Lesser Relic drop quantity"}]
+					}]
+			},
+			{
+				"id": "rareDropChance",
+				"allowedScopes": [
+					{
+						"scopes": {},
+						"descriptions": [{"text": "${value}% Rare item drop chance"}]
+					}]
 			}
 		]
 	},
