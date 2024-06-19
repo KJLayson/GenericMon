@@ -12,9 +12,8 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"flatBarrierDamage": 1.5},
-				"skillID": "melvorD:Attack",
-				"customDescription": "12345"
+				"modifiers": {"melvorD:flatBarrierDamage": 1.5},
+				"skillID": "melvorD:Attack"
 			},
 			{
 				"id": "coin_cat",
@@ -43,7 +42,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:barrierSummonDamage": 2.5},
+				"modifiers": {"melvorD:ancientRelicLocationChance": 1.5},
 				"skillID": "melvorD:Hitpoints"
 			},
             {
@@ -53,7 +52,6 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Rare item drop chance +1%",
 				"skillID": "melvorD:Ranged"
 			},
             {
@@ -63,9 +61,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Rare item drop chance +1%",
-				"skillID": "melvorD:Magic",
-				"customDescription": "12345"
+				"skillID": "melvorD:Magic"
 			},
             {
 				"id": "bubbles",
@@ -74,7 +70,6 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Lesser Relic quantity +2.5%",
 				"skillID": "melvorD:Prayer"
 			},
             {
@@ -84,7 +79,6 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Lesser Relic quantity +2.5%",
 				"skillID": "melvorD:Slayer"
 			},
             {
@@ -94,7 +88,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Lesser Relic quantity +2.5%",
+				"modifiers" : {"melvorD:accuracyRating": 3},
 				"skillID": "melvorItA:Corruption"
 			},
             {
@@ -104,7 +98,6 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Lesser Relic drop chance +2.5%",
 				"skillID": "melvorD:Farming"
 			},
 			{
@@ -114,7 +107,6 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Lesser Relic drop chance +2.5%",
 				"skillID": "melvorD:Township"
 			},
             {
@@ -124,7 +116,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Lesser Relic drop chance +2.5%",
+				"modifiers" : {"melvorD:ancientRelicLocationChance": 1.5},
 				"skillID": "melvorD:Woodcutting"
 			},
             {
@@ -134,7 +126,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Lesser Relic drop chance +2.5%",
+				"modifiers" : {"melvorD:cartographySurveyInterval": 2.5},
 				"skillID": "melvorD:Fishing"
 			},
             {
@@ -144,7 +136,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Lesser Relic drop chance +2.5%",
+				"modifiers" : {"melvorD:tinyArtefactChance": 2.5},
 				"skillID": "melvorD:Firemaking"
 			},
             {
@@ -154,7 +146,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:mediumArtefactChance": 1},
+				"modifiers": {"melvorD:smallArtefactChance": 2.5},
 				"skillID": "melvorD:Cooking"
 			},
             {
@@ -164,7 +156,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:tinyArtefactChance": 1},
+				"modifiers": {"melvorD:mediumArtefactChance": 2.5},
 				"skillID": "melvorD:Mining"
 			},
 			{
@@ -174,7 +166,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:ancientRelicLocationChance": 1},
+				"modifiers" : {"melvorD:largeArtefactChance": 2},
 				"skillID": "melvorD:Smithing"
 			},
 			{
@@ -184,7 +176,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:bankSpace": 1},
+				"modifiers" : {"melvorD:attackInterval": -1.25},
                 "skillID": "melvorD:Thieving"
 			},
             {
@@ -194,7 +186,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-                "modifiers": {"melvorD:bankSpace": 1},
+                "modifiers": {"melvorD:bankSpace": 2},
 				"skillID": "melvorD:Fletching"
 			},
             {
@@ -204,7 +196,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-                "modifiers": {"melvorD:bankSpace": 1},
+                "modifiers": {"melvorD:summoningAttackInterval": -1.25},
 				"skillID": "melvorD:Crafting"
 				
 			},
@@ -216,7 +208,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Runecrafting",
-				"modifiers": {"melvorD:bankSpace": 1}
+				"modifiers": {"melvorD:summoningChargePreservationChanceBypass": 2.5}
 			},
             {
 				"id": "murky",
@@ -226,7 +218,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Herblore",
-				"modifiers": {"melvorD:bankSpace": 1}
+				"modifiers": {"melvorD:summoningMaxHit": 2.5}
 			},
             {
 				"id": "speedy",
@@ -236,7 +228,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Agility",
-				"modifiers": {"melvorD:bankSpace": 1}
+				"modifiers": {"melvorD:minHitBasedOnMaxHit": 2}
 			},
             {
 				"id": "simon",
@@ -246,7 +238,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Summoning",
-				"modifiers": {"melvorD:bankSpace": 1}
+				"modifiers": {"melvorD:skillInterval": -1.25}
 			},
 			{
 				"id": "petunia",
@@ -256,7 +248,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorD:Astrology",
-				"modifiers" : {"cartographySightRange": 1}
+				"modifiers" : {"melvorD:bypassAmmoPreservationChance": 2.5}
 			},
             {
 				"id": "archibald",
@@ -266,7 +258,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorAoD:Cartography",
-				"modifiers" : {"cartographySightRange": 1}
+				"modifiers" : {"melvorD:bypassRunePreservationChance": 2.5}
 			},
             {
 				"id": "precious",
@@ -276,7 +268,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"skillID": "melvorAoD:Cartography",
-				"modifiers" : {"cartographySightRange": 1}
+				"modifiers" : {"melvorD:autoEatThreshold": 2}
 			},
             {
 				"id": "stellar",
@@ -285,7 +277,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"hint": "Lesser Relic quantity +2.5%",
+				"modifiers": {"melvorAoD:mapChargePreservationChance": 3},
 				"skillID": "melvorItA:Harvesting"
 			},
             {
@@ -293,10 +285,10 @@
 				"name": "tater tot",
 				"media": "assets/pets/tater_tot.png",
 				"scaleChanceWithMasteryPool": false,
-				"hint": "They pert near killed the Irish",
+				"hint": "Farmlands",
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"modifiers": {"melvorD:autoEatEfficiency": 2.5}
+				"modifiers": {"melvorD:foodHealingValue": 5}
 			}
 		],
 		"skillData": 
@@ -581,7 +573,7 @@
 				"id": "melvorD:Plant",
 				"pet": {
 					"id": "genericmon:tater_tot",
-					"quantity": 200
+					"quantity": 250
 				}
 			}
 		]
