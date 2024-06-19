@@ -13,7 +13,8 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {"flatBarrierDamage": 1.5},
-				"skillID": "melvorD:Attack"
+				"skillID": "melvorD:Attack",
+				"customDescription": "12345"
 			},
 			{
 				"id": "coin_cat",
@@ -63,7 +64,8 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"hint": "Rare item drop chance +1%",
-				"skillID": "melvorD:Magic"
+				"skillID": "melvorD:Magic",
+				"customDescription": "12345"
 			},
             {
 				"id": "bubbles",
@@ -273,7 +275,7 @@
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
-				"skillID": "melvorAoD:Archaeology",
+				"skillID": "melvorAoD:Cartography",
 				"modifiers" : {"cartographySightRange": 1}
 			},
             {
@@ -530,12 +532,43 @@
 				}
 			},
 			{
+				"skillID": "melvorD:Summoning",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:simon"
+					]
+				}
+			},
+			{
 				"skillID": "melvorD:Astrology",
 				"data": 
 				{
 					"pets": 
 					[
 						"genericmon:petunia"
+					]
+				}
+			},
+			{
+				"skillID": "melvorAoD:Cartography",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:archibald",
+						"genericmon:precious"
+					]
+				}
+			},
+			{
+				"skillID": "melvorItA:Harvesting",
+				"data": 
+				{
+					"pets": 
+					[
+						"genericmon:stellar"
 					]
 				}
 			}
