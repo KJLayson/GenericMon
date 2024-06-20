@@ -6,7 +6,7 @@
 			{
 				"id": "genericsaur",
 				"name": "genericsaur",
-				"media": "assets/pets/genericsaur.png",
+				"media": "assets/pets/genericmon/genericsaur.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -18,7 +18,7 @@
 			{
 				"id": "coin_cat",
 				"name": "coin cat",
-				"media": "assets/pets/coin_cat.png",
+				"media": "assets/pets/genericmon/coin_cat.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -30,7 +30,7 @@
 			{
 				"id": "mango",
 				"name": "mango",
-				"media": "assets/pets/mango.png",
+				"media": "assets/pets/genericmon/mango.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -42,7 +42,7 @@
 			{
 				"id": "valiant",
 				"name": "valiant",
-				"media": "assets/pets/valiant.png",
+				"media": "assets/pets/genericmon/valiant.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -54,7 +54,7 @@
 			{
 				"id": "turtleneck",
 				"name": "turtleneck",
-				"media": "assets/pets/turtleneck.png",
+				"media": "assets/pets/genericmon/turtleneck.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -66,7 +66,7 @@
 			{
 				"id": "finvestigator",
 				"name": "finvestigator",
-				"media": "assets/pets/finvestigator.png",
+				"media": "assets/pets/genericmon/finvestigator.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -78,7 +78,7 @@
 			{
 				"id": "bubbles",
 				"name": "bubbles",
-				"media": "assets/pets/bubbles.png",
+				"media": "assets/pets/genericmon/bubbles.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -90,7 +90,7 @@
 			{
 				"id": "milton",
 				"name": "milton",
-				"media": "assets/pets/milton.png",
+				"media": "assets/pets/genericmon/milton.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -102,7 +102,7 @@
 			{
 				"id": "rex",
 				"name": "rex",
-				"media": "assets/pets/rex.png",
+				"media": "assets/pets/genericmon/rex.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -115,7 +115,7 @@
 			{
 				"id": "baby_bear",
 				"name": "baby bear",
-				"media": "assets/pets/baby_bear.png",
+				"media": "assets/pets/genericmon/baby_bear.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -127,7 +127,7 @@
 			{
 				"id": "aviator",
 				"name": "aviator",
-				"media": "assets/pets/aviator.png",
+				"media": "assets/pets/genericmon/aviator.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -139,7 +139,7 @@
 			{
 				"id": "timber",
 				"name": "timber",
-				"media": "assets/pets/timber.png",
+				"media": "assets/pets/genericmon/timber.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -151,7 +151,7 @@
 			{
 				"id": "sandy",
 				"name": "sandy",
-				"media": "assets/pets/sandy.png",
+				"media": "assets/pets/genericmon/sandy.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -163,7 +163,7 @@
 			{
 				"id": "ember",
 				"name": "ember",
-				"media": "assets/pets/ember.png",
+				"media": "assets/pets/genericmon/ember.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -175,7 +175,7 @@
 			{
 				"id": "wolfgang",
 				"name": "wolfgang",
-				"media": "assets/pets/wolfgang.png",
+				"media": "assets/pets/genericmon/wolfgang.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -187,7 +187,7 @@
 			{
 				"id": "rocky",
 				"name": "rocky",
-				"media": "assets/pets/rocky.png",
+				"media": "assets/pets/genericmon/rocky.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -199,7 +199,7 @@
 			{
 				"id": "truffle",
 				"name": "truffle",
-				"media": "assets/pets/truffle.png",
+				"media": "assets/pets/genericmon/truffle.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -211,7 +211,7 @@
 			{
 				"id": "cupcake",
 				"name": "cupcake",
-				"media": "assets/pets/cupcake.png",
+				"media": "assets/pets/genericmon/cupcake.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -223,7 +223,7 @@
 			{
 				"id": "ted",
 				"name": "ted",
-				"media": "assets/pets/ted.png",
+				"media": "assets/pets/genericmon/ted.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -235,7 +235,7 @@
 			{
 				"id": "tanner",
 				"name": "tanner",
-				"media": "assets/pets/tanner.png",
+				"media": "assets/pets/genericmon/tanner.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -247,7 +247,7 @@
 			{
 				"id": "bundt",
 				"name": "bundt",
-				"media": "assets/pets/bundt.png",
+				"media": "assets/pets/genericmon/bundt.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -259,7 +259,7 @@
 			{
 				"id": "murky",
 				"name": "murky",
-				"media": "assets/pets/murky.png",
+				"media": "assets/pets/genericmon/murky.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -271,7 +271,7 @@
 			{
 				"id": "speedy",
 				"name": "speedy",
-				"media": "assets/pets/speedy.png",
+				"media": "assets/pets/genericmon/speedy.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -283,7 +283,7 @@
 			{
 				"id": "simon",
 				"name": "simon",
-				"media": "assets/pets/simon.png",
+				"media": "assets/pets/genericmon/simon.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -295,7 +295,7 @@
 			{
 				"id": "petunia",
 				"name": "petunia",
-				"media": "assets/pets/petunia.png",
+				"media": "assets/pets/genericmon/petunia.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -307,7 +307,7 @@
 			{
 				"id": "archibald",
 				"name": "archibald",
-				"media": "assets/pets/archibald.png",
+				"media": "assets/pets/genericmon/archibald.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -319,7 +319,7 @@
 			{
 				"id": "precious",
 				"name": "precious",
-				"media": "assets/pets/precious.png",
+				"media": "assets/pets/genericmon/precious.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -331,7 +331,7 @@
 			{
 				"id": "stellar",
 				"name": "stellar",
-				"media": "assets/pets/stellar.png",
+				"media": "assets/pets/genericmon/stellar.png",
 				"scaleChanceWithMasteryPool": false,
 				"ignoreCompletion": false,
 				"activeInRaid": false,
@@ -344,7 +344,7 @@
 			{
 				"id": "tater_tot",
 				"name": "tater tot",
-				"media": "assets/pets/tater_tot.png",
+				"media": "assets/pets/genericmon/tater_tot.png",
 				"scaleChanceWithMasteryPool": false,
 				"hint": "Farmlands",
 				"ignoreCompletion": false,
