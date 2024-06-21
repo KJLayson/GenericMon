@@ -1,21 +1,585 @@
 {
-	"$schema": "https://melvoridle.com/assets/schema/gameData.json",
-	"namespace": "genericmon",
-	"data": {
-        "pets": [
-			{
-				"id": "gacha_gachasaur",
-				"name": "gachasaur",
-				"media": "assets/pets/gachamon/gachasaur.png",
-				"scaleChanceWithMasteryPool": false,
-				"ignoreCompletion": false,
-				"activeInRaid": false,
-				"modifiers": {
-					"melvorD:flatBarrierDamage": 1.5
-				},
-				"skillID": "melvorD:Attack"
-			}
-		]
-    }
-
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "genericmon",
+  "data": {
+    "pets": [
+      {
+        "id": "gachasaurGS3",
+        "name": "Gachasaur (SSS)",
+        "media": "assets/pets/gachamon/gachasaur.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": true,
+        "activeInRaid": false,
+        "modifiers": {
+          "melvorD:skillCostReduction": 1,
+          "melvorD:skillInterval": -1,
+          "melvorD:bankSpace": 1
+        },
+        "enemyModifiers": {
+          "melvorD:evasion": -1,
+          "melvorD:accuracyRating": -1,
+          "melvorD:damageDealt": -1
+        },
+        "hint": "Pet Token"
+      },
+      {
+        "id": "billyGSS",
+        "name": "Billy (SS)",
+        "media": "assets/pets/gachamon/gachasaur.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": true,
+        "activeInRaid": false,
+        "enemyModifiers": {
+          "melvorD:accuracyRating": -1,
+          "melvorD:evasion": -1
+        },
+        "hint": "Pet Token"
+      }
+    ],
+    "items": [
+      {
+        "itemType": "Equipment",
+        "id": "pet_treat",
+        "name": "Pet Treat",
+        "category": "Pet",
+        "type": "Consumable",
+        "media": "assets/items/pet_treat.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "tier": "none",
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "sellsFor": 1,
+        "customDescription": "+10% chance to receive a Genericmon skill pet.",
+        "validSlots": [
+          "Consumable"
+        ],
+        "consumesOn": [
+          {
+            "type": "PlayerAttack"
+          },
+          {
+            "type": "WoodcuttingAction"
+          },
+          {
+            "type": "FishingAction"
+          },
+          {
+            "type": "FiremakingAction"
+          },
+          {
+            "type": "CookingAction"
+          },
+          {
+            "type": "MiningAction"
+          },
+          {
+            "type": "SmithingAction"
+          },
+          {
+            "type": "ThievingAction"
+          },
+          {
+            "type": "FarmingHarvestAction"
+          },
+          {
+            "type": "FletchingAction"
+          },
+          {
+            "type": "CraftingAction"
+          },
+          {
+            "type": "RunecraftingAction"
+          },
+          {
+            "type": "HerbloreAction"
+          },
+          {
+            "type": "AgilityAction"
+          },
+          {
+            "type": "SummoningAction"
+          },
+          {
+            "type": "SummonTabletUsed"
+          },
+          {
+            "type": "AstrologyAction"
+          },
+          {
+            "type": "AltMagicAction"
+          },
+          {
+            "type": "CartographyMapUpgrade"
+          },
+          {
+            "type": "CartographyPaperMaking"
+          },
+          {
+            "type": "CartographySurvey"
+          },
+          {
+            "type": "HarvestingAction"
+          }
+        ]
+      },
+      {
+        "id": "pet_token",
+        "name": "Pet Token",
+        "category": "Openable",
+        "type": "Chest",
+        "media": "assets/items/pet_token.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "itemType": "Openable",
+        "dropTable": [
+          {
+            "itemID": "genericmon:pet_treat",
+            "minQuantity": 300,
+            "maxQuantity": 300,
+            "weight": 1
+          }
+        ],
+        "customDescription": "Redeem this token and get a prize! It could be a new pet or pet related items. First redemption is guaranteed to be a pet."
+      }
+    ],
+    "skillData": [
+      {
+        "skillID": "melvorD:Attack",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Strength",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Defence",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Hitpoints",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Ranged",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Magic",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Prayer",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Slayer",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorItA:Corruption",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Farming",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Township",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Woodcutting",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Fishing",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Firemaking",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Cooking",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Mining",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Smithing",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Thieving",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Fletching",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Crafting",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Runecrafting",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Herblore",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Agility",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Summoning",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Astrology",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorAoD:Cartography",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorItA:Harvesting",
+        "data": {
+          "rareDrops": [
+            {
+              "itemID": "genericmon:pet_token",
+              "quantity": 1,
+              "chance": {
+                "type": "Fixed",
+                "chance": 0.1
+              },
+              "requirements": []
+            }
+          ]
+        }
+      }
+    ]
+  }
 }
