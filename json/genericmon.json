@@ -11,7 +11,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {
-					"melvorD:flatBarrierDamage": 1.5
+					"melvorD:flatBarrierDamage": 2
 				},
 				"skillID": "melvorD:Attack"
 			},
@@ -23,7 +23,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {
-					"melvorD:flatBarrierSummonDamage": 1.5
+					"melvorD:flatBarrierSummonDamage": 2
 				},
 				"skillID": "melvorD:Strength"
 			},
@@ -107,7 +107,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {
-					"melvorD:accuracyRating": 2.5,
+					"melvorD:damageDealt": 2.5,
 					"melvorD:attackInterval": -1.25
 				},
 				"skillID": "melvorItA:Corruption"
@@ -206,7 +206,7 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {
-					"melvorD:largeArtefactChance": 2
+					"melvorD:largeArtefactChance": 2.5
 				},
 				"skillID": "melvorD:Smithing"
 			},
@@ -255,7 +255,7 @@
 				"activeInRaid": false,
 				"skillID": "melvorD:Runecrafting",
 				"modifiers": {
-					"melvorD:summoningChargePreservationChanceBypass": 2.5
+					"melvorD:summoningChargePreservationChanceBypass": 3
 				}
 			},
 			{
@@ -279,7 +279,7 @@
 				"activeInRaid": false,
 				"skillID": "melvorD:Agility",
 				"modifiers": {
-					"melvorD:minHitBasedOnMaxHit": 2
+					"melvorD:minHitBasedOnMaxHit": 5
 				}
 			},
 			{
@@ -327,7 +327,7 @@
 				"activeInRaid": false,
 				"skillID": "melvorAoD:Cartography",
 				"modifiers": {
-					"melvorD:autoEatThreshold": 2
+					"melvorD:autoEatThreshold": 2.5
 				}
 			},
 			{
@@ -338,8 +338,8 @@
 				"ignoreCompletion": false,
 				"activeInRaid": false,
 				"modifiers": {
-					"melvorD:bypassAmmoPreservationChance": 2.5,
-					"melvorD:bypassRunePreservationChance": 2.5
+					"melvorD:bypassAmmoPreservationChance": 5,
+					"melvorD:bypassRunePreservationChance": 5
 				},
 				"skillID": "melvorItA:Harvesting"
 			},
